@@ -26,7 +26,7 @@ inputs:
   reporter:
     description: "Reporter of reviewdog command [github-pr-check, github-pr-review, github-check]."
     required: false
-    default: "github-pr-check"
+    default: "github-pr-review"
   filter_mode:
     description: "Filtering mode for the reviewdog command [added, diff_context, file, nofilter]."
     required: false
